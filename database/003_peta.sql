@@ -1,0 +1,6 @@
+BEGIN;
+ALTER TABLE villages ADD COLUMN maps_lat REAL;
+ALTER TABLE villages ADD COLUMN maps_lng REAL;
+ALTER TABLE potentials ADD COLUMN lat REAL;
+ALTER TABLE potentials ADD COLUMN lng REAL;
+COMMIT;
