@@ -1,0 +1,14 @@
+/* Gaya halaman Keuangan & Tujuan Desa (file terpisah agar tidak menimpa base.css/theme.css Anda) */
+.fin progress { width: 100%; height: 10px; accent-color: var(--primary, #176B4A); margin-top: .4rem; }
+.fin .stat span { display: block; font-weight: 600; margin-bottom: .25rem; }
+.fin .stat strong { font-size: 1.25rem; }
+.fin__kind { margin-top: 1.5rem; }
+.fin-table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+.fin-table { width: 100%; border-collapse: collapse; background: var(--surface, #fff); border: 1px solid var(--border, #E3EAE5); }
+.fin-table caption { text-align: left; font-weight: 700; padding: .5rem 0; }
+.fin-table th, .fin-table td { padding: .55rem .75rem; border-bottom: 1px solid var(--border, #E3EAE5); text-align: left; font-size: .92rem; vertical-align: top; }
+.fin-table th { background: var(--primary-light, #E8F4ED); }
+.fin-table td:nth-child(n+2), .fin-table th:nth-child(n+2) { white-space: nowrap; }
+.interest { margin-top: .75rem; } .interest summary { cursor: pointer; font-weight: 700; color: var(--primary, #176B4A); }
+.interest .form { margin-top: .75rem; } .hp { position: absolute; left: -9999px; }
+.check { display: flex !important; gap: .5rem; align-items: flex-start; font-weight: 400 !important; } .check input { width: auto; margin-top: .3rem; }
